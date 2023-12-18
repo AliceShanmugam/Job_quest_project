@@ -1,0 +1,43 @@
+pytest
+pylint
+ipdb
+jupyter
+jupyterlab
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# JobQuest
+
+# Preprocess
+langdetect
+pyarrow
+fastparquet
+nltk
+
+# Front
+streamlit
+requests
+
+# API
+fastapi
+uvicorn
+
+# Model
+tensorflow
+transformers
+torch
+
+# Google Cloud - MLOps
+google-cloud-bigquery
+google-cloud-storage
+
+# Tensorflow for Mac OS
+tensorflow-macos
+tensorflow-metal
+
+
+# Utilities
+tqdm

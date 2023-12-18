@@ -1,0 +1,21 @@
+numpy==1.26.2
+pandas==2.1.3
+scikit-learn
+
+# API
+fastapi
+uvicorn
+
+# Model
+# torch==2.1.1
+
+# Trick to install the version of Tensorflow depending on your processor: darwin == Mac, ARM == M1
+tensorflow-macos==2.15.0; sys_platform == 'darwin' and 'ARM' in platform_version # Mac M-chips
+tensorflow==2.15.0; sys_platform == 'darwin' and 'ARM' not in platform_version # Mac Intel chips
+tensorflow==2.15.0; sys_platform != 'darwin' # Windows & Ubuntu Intel chips
+
+transformers==4.35.2
+
+# Google Cloud - MLOps
+# google-cloud-bigquery
+# google-cloud-storage

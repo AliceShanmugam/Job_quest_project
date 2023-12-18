@@ -1,0 +1,5 @@
+streamlit
+st-annotated-text
+langchain
+openai
+pypdf
